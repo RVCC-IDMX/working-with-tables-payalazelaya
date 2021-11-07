@@ -1,3 +1,61 @@
 body {
-  background-color: aliceblue;
+  background-image:url(/img/dj-ga34d155bf_1920.jpg);
+}
+
+h1 {
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px black;
+}
+
+.tg {
+  border: 2px solid navy;
+  border-radius: 7px;
+  box-shadow: 4px 4px 4px 4px lightblue;
+}
+
+tbody {
+  background-color:lightcyan;
+}
+
+.tg tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+.tg tr:hover {
+  background-color:lightskyblue;
+}
+
+.tg thead {
+  background-color:royalblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+caption {
+  background-size: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  background-color: #81adcc;
+  margin-top: 15px;
+  border: 3px solid black;
+}
+
+caption p a:link {
+  color: navy;
+}
+
+caption p a:visited {
+  color: darkslateblue;
+}
+
+caption p a:hover {
+  color: black;
+}
+
+caption p a:active {
+  color: #2d32ad;
 }
